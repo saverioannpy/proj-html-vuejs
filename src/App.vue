@@ -4,7 +4,7 @@ import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
 export default{
   name: 'App',
-  component: {
+  components: {
     AppHeader,
     AppMain,
     AppFooter,
@@ -13,7 +13,9 @@ export default{
 </script>
 
 <template>
-
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
 </template>
 
 <style>
