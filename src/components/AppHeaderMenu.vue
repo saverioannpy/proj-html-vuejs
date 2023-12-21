@@ -9,14 +9,12 @@ export default{
 </script>
 
 <template>
-    
     <li>
         <a :href="link">{{ name }}</a>
-    </li>
-       
+    </li>   
 </template>
 
-<style lang="scss">
+<style  lang="scss">
     li{
         margin-left: 35px;
         a{

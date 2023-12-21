@@ -1,3 +1,8 @@
 @use './scss/partials/reset.scss' as * ;
 @use './scss/partials/variables' as *;
 @use './scss/partials/typography' as *;
+
+
+li{
+    list-style: none;
+}

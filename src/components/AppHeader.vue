@@ -64,6 +64,7 @@ export default{
 <style lang="scss">
 
 .header-container{
+    padding: 50px;
     width: 1300px;
     margin: 0 auto;
     display: flex;
@@ -84,10 +85,9 @@ export default{
 }
 
 .header-menu{
-    padding: 50px;
-    ul{
+    .header-menu-list{
         display: flex;
-        list-style-type: none;
+        align-items: center;
     }
 }
 </style>

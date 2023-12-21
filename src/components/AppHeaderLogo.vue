@@ -10,7 +10,7 @@ export default{
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .header-logo{
     width: 200px;
 

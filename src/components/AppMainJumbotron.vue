@@ -25,26 +25,30 @@ export default{
             <!-- /Bottone del jumbotron-->
         </div>
         <div class="jumbotron-dx">
-            <AppMainExpertContact id="ExpertContactOver"/>
+            <AppMainExpertContact />
         </div>
     </div>  
 </div>
 <!-- /jumbotron -->
 </template>
 <style lang="scss">
+.jumbotron{
+    height: 695px;
+    background-image: url("../assets/img/marketing-intro.jpg");
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    
+}
 .jumbotron-sx{
-        background-image: url("../assets/img/marketing-intro.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
+        width: 50%;
         display: flex;
         position: relative;
-
         .jumbotron-info{
             width: 100%;
             color: #ffffff;
             width: 650px;
             text-align: start;
-            padding-left: 300px;
             padding-top: 100px;
 
             p{

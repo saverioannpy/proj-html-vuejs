@@ -20,6 +20,5 @@ export default{
     #header-contacts-number{
         margin-left: 17px;
     }
-
 }
 </style>
