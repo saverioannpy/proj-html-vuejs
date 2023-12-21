@@ -6,22 +6,20 @@ export default{
 
 <template>
     <div class="header-contacts">
-        <img src="../assets/img/phone-solid.svg" alt="">
-        <p>(555) 802-1234</p>
-        <div class="header-quote-btn">
-            <p>Free Quote</p>
-        </div>
+        <!-- icona phone-->
+        <img src="../assets/img/icons/phone-solid.svg" alt="">
+        <p id="header-contacts-number">(555) 802-1234</p>
     </div>
 </template>
 
-<style>
+<style lang="scss">
 .header-contacts{
     display: flex;
-    
-    .header-quote-btn{
-    background-color: #ffe7da;
-    color: #f96c23;
-}
+    margin-left: 50px;
+
+    #header-contacts-number{
+        margin-left: 17px;
+    }
 
 }
 </style>
